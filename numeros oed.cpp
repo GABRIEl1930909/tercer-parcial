@@ -17,7 +17,7 @@ int main()
 		while (col < n) {
 			printf("cptura el elemento [%d,%d] ", ren, col);			
 
-			scanf_s("%D", &matriz[ren][col]);
+			scanf_s("%d", &matriz[ren][col]);
 			col++;
 
 		}
